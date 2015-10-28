@@ -1,0 +1,55 @@
+body, html,
+.container {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+.button-holder {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+#origin-point {
+  height: 1px;
+  width: 1px;
+  margin: 0 auto;
+  position: relative;
+}
+#button {
+  width: 100px;
+  padding: 7px;
+  font-size: 15px;
+  background-color: #67AB49;
+  border: 0;
+  color: #fff;
+  border-radius: 15px;
+}
+#button:focus {
+  outline: 0;
+}
+.hide {
+  display: none;
+}
+.heart {
+  position: absolute;
+   transform:rotate(15deg);
+    -webkit-transform:rotate(15deg);
+    -moz-transform:rotate(15deg);
+    -ms-transform:rotate(15deg);
+  -webkit-animation: flyup 5s forwards;
+  -moz-animation:    flyup 5s forwards;
+  -o-animation:      flyup 5s forwards;
+  animation:         flyup 5s forwards;
+}
+
+@keyframes flyup {
+  0% {
+    top: 0;
+    opacity: 1;
+  }
+  100% {
+    top: -150px;
+    opacity: 0;
+  }
+}
