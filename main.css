@@ -32,15 +32,9 @@ body, html,
   display: none;
 }
 .heart {
+  height: 20px;
+  width: 20px;
   position: absolute;
-   transform:rotate(15deg);
-    -webkit-transform:rotate(15deg);
-    -moz-transform:rotate(15deg);
-    -ms-transform:rotate(15deg);
-  -webkit-animation: flyup 5s forwards;
-  -moz-animation:    flyup 5s forwards;
-  -o-animation:      flyup 5s forwards;
-  animation:         flyup 5s forwards;
 }
 
 @keyframes flyup {

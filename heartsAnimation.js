@@ -7,10 +7,15 @@ var HeartAnimation = function(input) {
 
 HeartAnimation.prototype.addHeart = function() {
   var newElement = this.element.clone(),
-  randColor = Math.floor(Math.random() * (5));
-  randFontSize = Math.floor(Math.random() * (8)) + 12;
-  newElement.css('color', this.heartColours[randColor]);
-  newElement.css('font-size', randFontSize);
+  randomColor = Math.floor(Math.random() * (5)),
+  randomDeg = Math.random() * 60 - 30,
+  randomLeftValue = Math.random() * 60 - 30,
+  randomScaleValue = Math.random() + 1,
+  randomSec = Math.random() * 5 + 2;
+  newElement.css('color', this.heartColours[randomColor]);
+  newElement.css('left', randomLeftValue);
+  newElement.css('transform', 'rotate(' + randomDeg + 'deg) scale(' + randomScaleValue + ')');
+  newElement.css('animation', 'flyup ' + randomSec + 's forwards');
   newElement.appendTo(this.originPoint);
 };
 
