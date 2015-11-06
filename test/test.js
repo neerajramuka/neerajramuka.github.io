@@ -63,4 +63,8 @@ function DialogController($scope, $mdDialog) {
   $scope.answer = function(answer) {
     $mdDialog.hide(answer);
   };
+  $scope.closeAlert = function() {
+      $mdDialog.hide( alert, "finished" );
+      alert = undefined;
+    }
 }
