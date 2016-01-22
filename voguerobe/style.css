@@ -80,3 +80,17 @@ header {
     width: 80%;
   }
 }
+
+/*modal*/
+
+.modal-dialog {
+  width: 80%;
+  margin: 10vw auto;
+}
+
+@media (min-width: 780px) {
+  .modal-dialog {
+    width: 60%;
+    margin: 300px auto;
+  }
+}
