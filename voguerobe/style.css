@@ -1,0 +1,82 @@
+body,html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+header {
+  background-color: #121212;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 2
+}
+.show-in-mob {
+  display: none !important;
+}
+.logo {
+  width: 55px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.content-body {
+  text-align: center;
+  font-family: 'lato',arial;
+  background: url("images/heart.png");
+  height: 100%;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(237,27,27,0.15);
+}
+.content {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  background: rgba(255,255,255,0.7);
+  margin: 0 auto;
+  top: 100px;
+  padding: 50px 0;
+}
+.content-body img.image {
+  width: 15%;
+  margin: 0 0 50px;
+}
+.slide {
+  width: 60%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 979px) {
+  .show-in-mob {
+    display: block !important;
+  }
+  header {
+    padding: 1.5vw 0;
+  }
+  .logo {
+    width: 10vw;
+  }
+  .container {
+    width: 94vw;
+  }
+  .content {
+    width: 90%;
+    top: 15vw;
+    height: 80vh;
+    padding: 7.5vw 0;
+  }
+  .content-body img.image {
+    width: 40vw;
+    margin: 0 0 7.5vw;
+  }
+  .slide {
+    width: 80%;
+  }
+}
