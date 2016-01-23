@@ -67,6 +67,10 @@ header {
   right: 0;
   background-color: #1565C0;
   border: 1px solid #0D47A1;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 #reg-text .neg {
   display: none;
