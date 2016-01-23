@@ -1,13 +1,11 @@
 <html>
 <head>
-  <!-- Bootstrap -->
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Flipdown/style.css">
   <link href="style.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
   <link rel="icon" href="images/vr_logo2.png" sizes="16x16">
-  <title>VogueRobe</title>
+  <title>Welcome to VogueRobe</title>
 </head>
 <body>
   <header>
@@ -16,62 +14,24 @@
     </div>
   </header>
   <div class='content-body'>
-    <div class='overlay'></div>
     <div class='content'>
       <img class='image' src="images/vouge1.png">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src='images/v.jpg' alt="product1">
-            <img class='show-in-mob' src='images/v.jpg' alt="product1">
-          </div>
-          <div class="item">
-            <img src='images/v.jpg' alt="product1">
-            <img class='show-in-mob' src='images/v.jpg' alt="product1">
-          </div>
-          <div class="item">
-            <img src='images/v.jpg' alt="product1">
-            <img class='show-in-mob' src='images/v.jpg' alt="product1">
-          </div>
-          <div class="item">
-            <img src='images/v.jpg' alt="product1">
-            <img class='show-in-mob' src='images/v.jpg' alt="product1">
-          </div>
-          <div class="item">
-            <img src='images/v.jpg' alt="product1">
-            <img class='show-in-mob' src='images/v.jpg' alt="product1">
-          </div>
-        </div>
+      <div class='tag-line'>Don't just wear, live it!</div>
+      <div class='clock'></div>
+      <div class='register'>
+        <h1>WELCOME</h1>
+        <div class='reg-text'>Register now for Free T-Shirt</div>
+        <form class='register-form'>
+          <input type="email" placeholder="Enter your email address" required>
+          <button type="submit">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA0ElEQVRIS7WU0Q3CMAxEzxswAqOwCXQjNiCbMAqjHHLUViUQ5WyUSP2pnPfsxLEhsEgWADSzRd1mauAKv67xRZVIgga+5SRJhgKSFwDPTqVDyVDgYJI3AI+MRBL8I5EFWUlIkJGEBVGJrV1C9T0c4vzi/fu19u5yQQau5FMlMwWeRJktmFrBYma1Ah8FmeUXvA2/dn+F+88ZbbrDU4LBXPqAhwVReEiQgcuCLFwSkDwDeHXa7OvM2zipizoVDOFSBVtGjUSChwSHMX0ys7v6Mt/EP3cSmQOzigAAAABJRU5ErkJggg=="/>
+          </button>
+        </form>
       </div>
     </div>
   </div>
-  <div class="modal fade" tabindex="-1" role="dialog" id='myModal'>
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        </div>
-        <div class="modal-body">
-          <h1>WELCOME</h1>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary">Register Now</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
 </body>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-
-  <script type="text/javascript">
-      $(window).load(function(){
-          $('#myModal').modal('show');
-      });
-  </script>
-
+  <script src="Flipdown/flipclock.min.js"></script>
+  <script src="welcome.js"></script>
 </html>
