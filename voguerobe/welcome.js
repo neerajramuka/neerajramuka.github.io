@@ -37,5 +37,14 @@ $(document).ready(function() {
   }
 });
 $( ".register-form" ).submit(function(event) {
+  event.preventDefault();
   $('#reg-text').addClass('show');
+  
+  var $form = $( this ),
+  term = $('#emailVal').val(),
+  url = "https://52.32.112.6/api/ams/email_subscriptions";
+  var item = 'email = ' + term;
+ 
+  // Send the data using post
+  var posting = $.post( url, item );
 });

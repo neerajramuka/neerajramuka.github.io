@@ -81,7 +81,6 @@ header {
   list-style: none;
   padding: 10px;
   margin: 20px auto;
-  background: #DCDEE0;
   width: 180px;
   border-radius: 3px;
   position: absolute;
@@ -90,7 +89,10 @@ header {
 }
 .nav li {
   display: inline-block;
-  margin: 0 8px;
+  margin: 0 4px;
+  padding: 0 3px;
+  border-radius: 8px;
+  background-color: #fff;
 }
 .nav a {
   text-decoration: none;
@@ -149,6 +151,7 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
+    background-color: #fff;
   }
   .nav li {
     margin: 0 1vw;
