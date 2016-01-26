@@ -149,7 +149,7 @@ header {
   .register-form button img {
     width: 3.5vw;
   }
-  .register-form:focus {
+  #emailVal:focus {
     position: fixed;
     z-index: 9;
     left: 20vw;
