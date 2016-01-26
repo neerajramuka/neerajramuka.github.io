@@ -48,8 +48,15 @@ $( ".register-form" ).submit(function(event) {
           type: 'Post',
           url: url, 
           data: data
-        }).fail(function(res) {
+        }).done(function(res) {
           data = res;
+          $('.failure').removeClass('failure');
           $('#reg-text').addClass('success');
+          $('#emailVal').val('');
+        })
+        .fail(function(res) {
+          data = res;
+          $('.success').removeClass('success');
+          $('#reg-text').addClass('failure');
         });
 });
