@@ -149,6 +149,13 @@ header {
   .register-form button img {
     width: 3.5vw;
   }
+  .register-form:focus {
+    position: fixed;
+    z-index: 9;
+    left: 20vw;
+    bottom: 9px;
+    border: 2px solid #333
+  }
   .nav {
     padding: 2vw;
     margin: 4vw auto 0;

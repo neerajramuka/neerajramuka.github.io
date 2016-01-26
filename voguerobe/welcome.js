@@ -34,13 +34,6 @@ $(document).ready(function() {
   if(isMobile) {
     var zoom = $(window).width()/620*0.75;
     $('.clock').css('zoom', zoom)
-
-    $('#emailVal').click(function(e){ $(this).focus(); });
-
-    $('body').click(function(e)
-    {
-      $('#emailVal').trigger('click');
-    })
   }
 });
 $( ".register-form" ).submit(function(event) {
