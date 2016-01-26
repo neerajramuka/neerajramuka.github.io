@@ -68,13 +68,20 @@ header {
   background-color: #1565C0;
   border: 1px solid #0D47A1;
 }
-#reg-text .neg {
+#reg-text .msg1,
+#reg-text .msg2 {
   display: none;
 }
-#reg-text.show .neg {
+#reg-text.success .msg1 {
   display: block;
 }
-#reg-text.show .pos {
+#reg-text.success .msg0 {
+  display: none;
+}
+#reg-text.failure .msg2 {
+  display: block;
+}
+#reg-text.failure .msg0 {
   display: none;
 }
 .nav {
