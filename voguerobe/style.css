@@ -116,6 +116,9 @@ header {
   color: #dd4b39;
 }
 @media screen and (max-width: 979px) {
+  body {
+    background-position: 0 8vw;
+  }
   header {
     padding: 1.5vw 0;
   }
