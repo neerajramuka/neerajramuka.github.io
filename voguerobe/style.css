@@ -149,14 +149,8 @@ header {
   .register-form button img {
     width: 3.5vw;
   }
-  #emailVal:focus {
-    position: fixed;
-    z-index: 9;
-    left: 20vw;
-    bottom: 9px;
-    border: 2px solid #333
-  }
   .nav {
+    display: none;
     padding: 2vw;
     margin: 4vw auto 0;
     width: 100%;
