@@ -33,7 +33,7 @@ $(document).ready(function() {
   //Set zoom to make clock responsive
   if(isMobile) {
     var zoom = $(window).width()/620*0.75;
-    $('.clock').css('zoom', zoom)
+    $('.clock').css('zoom', zoom);
   }
 });
 $( ".register-form" ).submit(function(event) {
