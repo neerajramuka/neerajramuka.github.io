@@ -154,6 +154,7 @@ header {
     width: 3.5vw;
   }
   .nav {
+    display: none;
     padding: 2vw;
     margin: 4vw auto 0;
     width: 100%;
