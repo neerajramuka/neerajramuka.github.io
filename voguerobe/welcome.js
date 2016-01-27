@@ -39,7 +39,7 @@ $(document).ready(function() {
 $( ".register-form" ).submit(function(event) {
   event.preventDefault();
   
-  
+  this.scrollIntoView();
   var url = "http://52.32.112.6/api/ams/email_subscriptions";
   var data = { email: $('#emailVal').val() }
  
