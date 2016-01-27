@@ -9,6 +9,10 @@ body,html {
   height: 100%;
   font-family: 'Oswald', sans-serif;
 }
+body {
+  background-image: url('images/back.png');
+  background-size: cover;
+}
 header {
   background-color: #121212;
   position: fixed;
@@ -27,22 +31,18 @@ header {
 .content-body {
   padding-top: 100px;
   text-align: center;
-  height: 100%;
   position: relative;
-  background-image: url('images/back.png');
-  background-size: cover;
 }
 .content-body img.image {
   width: 15%;
 }
 .tag-line {
-  margin: 10px 0;
+  margin: 10px 0 50px;
   font-size: 35px;
   color: #fff;
 }
 .register {
   color: #fff;
-  padding-bottom: 50px;
 }
 .register h1 {
   font-size: 40px;
@@ -91,7 +91,7 @@ header {
   margin: 20px auto;
   width: 180px;
   border-radius: 3px;
-  position: absolute;
+  position: fixed;
   top: 50px;
   right: 5%;
 }
@@ -129,11 +129,8 @@ header {
     width: 40vw;
   }
   .tag-line {
-    margin: 2vw 0;
+    margin: 2vw 0 8vw;
     font-size: 5vw;
-  }
-  .register {
-    padding-bottom: 8vw;
   }
   .register h1 {
     font-size: 5vw;
@@ -154,7 +151,6 @@ header {
     width: 3.5vw;
   }
   .nav {
-    display: none;
     padding: 2vw;
     margin: 4vw auto 0;
     width: 100%;
