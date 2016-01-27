@@ -1,5 +1,6 @@
 var clock;
 var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+var isAndroid = /(android)/i.test(navigator.userAgent);
 
 $(document).ready(function() {
   // Set dates.
@@ -34,6 +35,8 @@ $(document).ready(function() {
   if(isMobile) {
     var zoom = $(window).width()/620*0.75;
     $('.clock').css('zoom', zoom);
+  };
+  if (isAndroid) {
     $( "#emailVal" ).focus(function() {
       var $target = $('html,body'); 
       $target.animate({scrollTop: $target.height()}, 1000);
