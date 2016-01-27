@@ -36,12 +36,13 @@ header {
   width: 15%;
 }
 .tag-line {
-  margin: 10px 0 50px;
+  margin: 10px 0;
   font-size: 35px;
   color: #fff;
 }
 .register {
   color: #fff;
+  padding-bottom: 50px;
 }
 .register h1 {
   font-size: 40px;
@@ -128,8 +129,11 @@ header {
     width: 40vw;
   }
   .tag-line {
-    margin: 2vw 0 8vw;
+    margin: 2vw 0;
     font-size: 5vw;
+  }
+  .register {
+    padding-bottom: 8vw;
   }
   .register h1 {
     font-size: 5vw;
@@ -150,7 +154,6 @@ header {
     width: 3.5vw;
   }
   .nav {
-    display: none;
     padding: 2vw;
     margin: 4vw auto 0;
     width: 100%;
