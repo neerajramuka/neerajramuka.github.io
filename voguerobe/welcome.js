@@ -34,6 +34,10 @@ $(document).ready(function() {
   if(isMobile) {
     var zoom = $(window).width()/620*0.75;
     $('.clock').css('zoom', zoom);
+    $( "#emailVal" ).focus(function() {
+      var $target = $('html,body'); 
+      $target.animate({scrollTop: $target.height()}, 1000);
+    });
   }
 });
 $( ".register-form" ).submit(function(event) {
