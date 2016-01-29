@@ -117,6 +117,7 @@ header {
 }
 @media screen and (max-width: 979px) {
   body {
+    background-size: 168% 100%;
     background-position: 0 8vw;
   }
   header {
