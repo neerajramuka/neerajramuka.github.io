@@ -515,6 +515,13 @@ responsive area
 .pb50 {
 	padding-bottom: 50px;
 }
+.custom-row {
+	margin-left: 0;
+	margin-right: 0;
+}
+section {
+	overflow: hidden;
+}
 
 
 
