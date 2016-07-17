@@ -99,7 +99,7 @@ ul.nav{
 	letter-spacing: 10px;
 }
 .banner p{
-	font-size: 18px;
+	font-size: 24px;
 	color: #fff;
 }
 .banner img{
@@ -186,15 +186,15 @@ ul.nav{
 	color: #fff;
 }
 /*service area*/
-.service{
+/*.service{
 	margin: 0;
-	padding: 0;
+	padding: 0 0 50px;
 	background: url(../img/typing-bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	position: relative;
-}
+}*/
 .service-overlay{
 	position: absolute;
 	width: 100%;
@@ -510,7 +510,11 @@ responsive area
 	}
 }
 
+/*My classes*/
 
+.pb50 {
+	padding-bottom: 50px;
+}
 
 
 
