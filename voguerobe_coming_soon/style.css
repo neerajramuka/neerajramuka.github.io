@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+body,html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+body {
+  background-image: url('images/back.jpg');
+  background-size: cover;
+}
+header {
+  background-color: #121212;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 2
+}
+.logo {
+  width: 55px;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.content-body {
+  padding-top: 100px;
+  text-align: center;
+  position: relative;
+}
+.content-body img.image {
+  width: 15%;
+}
+.tag-line {
+  margin: 10px 0 50px;
+  font-size: 35px;
+  color: #fff;
+}
+.register {
+  color: #fff;
+}
+.register h1 {
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+.register-form {
+  position: relative;
+  margin: 20px auto 0;
+  display: inline-block;
+}
+.register-form input {
+  width: 400px;
+  padding: 12px;
+  font-size: 16px;
+  color: #aaa;
+  outline: none;
+  border: 0;
+}
+.register-form button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -3px;
+  background-color: #1565C0;
+  border: 1px solid #0D47A1;
+}
+#reg-text .msg1,
+#reg-text .msg2 {
+  display: none;
+}
+#reg-text.success .msg1 {
+  display: block;
+}
+#reg-text.success .msg0 {
+  display: none;
+}
+#reg-text.failure .msg2 {
+  display: block;
+}
+#reg-text.failure .msg0 {
+  display: none;
+}
+.nav {
+  list-style: none;
+  padding: 10px;
+  margin: 20px auto;
+  width: 180px;
+  border-radius: 3px;
+  position: fixed;
+  top: 50px;
+  right: 5%;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 4px;
+  padding: 0 3px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.nav a {
+  text-decoration: none;
+  font-size: 40px;
+}
+.fa-facebook-square {
+  color: #3A5795;
+}
+.fa-twitter-square {
+  color: #50A1E0;
+}
+.fa-instagram {
+  color: #dd4b39;
+}
+.coming-soon img {
+  width: 400px;
+}
+@media screen and (max-width: 979px) {
+  body {
+    background-size: 168% 100%;
+    background-position: 0 8vw;
+  }
+  header {
+    padding: 1.5vw 0;
+  }
+  .logo {
+    width: 10vw;
+  }
+  .container {
+    width: 94vw;
+  }
+  .content-body img.image {
+    width: 40vw;
+  }
+  .tag-line {
+    margin: 2vw 0 8vw;
+    font-size: 5vw;
+  }
+  .register h1 {
+    font-size: 5vw;
+    letter-spacing: 0.4vw;
+  }
+  .flip-clock-label {
+    display: none;
+  }
+  .register-form {
+    margin: 4vw auto 0;
+  }
+  .register-form input {
+    width: 60vw;
+    padding: 2vw;
+    font-size: 3vw;
+  }
+  .register-form button img {
+    width: 3.5vw;
+  }
+  .nav {
+    display: none;
+    padding: 2vw;
+    margin: 4vw auto 0;
+    width: 100%;
+    border-radius: 0.5vw;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+  }
+  .nav li {
+    margin: 0 1vw;
+  }
+  .nav a {
+    font-size: 9vw;
+  }
+  .coming-soon img {
+    width: 100%;
+  }
+}
+/*clock overwrite*/
+
+/*.flip-clock-wrapper {
+  display: inline-block;
+  width: auto;
+}*/
