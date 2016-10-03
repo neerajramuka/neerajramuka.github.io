@@ -69,7 +69,7 @@ table {
 {
 	font-family: 'Raleway', sans-serif;
 	text-decoration: none;
-	color: #1C97CA;
+	color: #ed1b1b;
 	font-size: 40px;
 	font-weight: 100;
 	padding: 20px 0px;
@@ -109,7 +109,8 @@ table {
 }
 .banner
 {
-	background: url(images/picjumbo-bg5.png) no-repeat fixed 0% 0%/cover;
+	background: #ed1b1b;
+	opacity: 0.8;
 	padding: 150px 0px;
 	cursor: default;
 }
