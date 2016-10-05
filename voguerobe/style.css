@@ -109,8 +109,7 @@ table {
 }
 .banner
 {
-	background: #ed1b1b;
-	opacity: 0.8;
+	background: url(https://scontent.fdel1-2.fna.fbcdn.net/t31.0-8/14542357_1117924301576977_2856101541932459313_o.jpg) no-repeat fixed 0% 0%/cover;
 	padding: 150px 0px;
 	cursor: default;
 }
