@@ -18,6 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Pinyon+Script" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-merged.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/canvas.css">
 
     <!--[if lt IE 9]>
       <script src="js/vendor/html5shiv.min.js"></script>
@@ -27,6 +28,13 @@
   <body>
     
     <!-- Fixed navbar -->
+    <div id='particleBox'>
+      <div id="particles-js" data-section="welcome"></div>
+      <div class='v2rc'>
+        <h1>V2R Creation</h1>
+        <h3>Virtual Reality content solutions provider</h3>
+      </div>
+    </div>
     
     <nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">
       <div class="container">
@@ -43,8 +51,8 @@
         <div id="navbar-collapse" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#" data-nav-section="welcome">Welcome</a></li>
-            <li><a href="#" data-nav-section="specialties">Specialties</a></li>
-            <li><a href="#" data-nav-section="menu">Menu</a></li>
+            <!-- <li><a href="#" data-nav-section="specialties">Specialties</a></li> -->
+            <!-- <li><a href="#" data-nav-section="menu">Menu</a></li> -->
             <li><a href="#" data-nav-section="reservation">Reservation</a></li>
             <li><a href="#" data-nav-section="events">Events</a></li>
             <li><a href="#" data-nav-section="contact">Contact</a></li>
@@ -53,7 +61,8 @@
       </div>
     </nav>
 
-    <section class="flexslider" data-section="welcome">
+
+    <!-- <section class="flexslider" data-section="welcome">
       <ul class="slides">
         <li style="background-image: url(img/hero_bg_1.jpg)" class="overlay" data-stellar-background-ratio="0.5">
           <div class="container">
@@ -96,9 +105,9 @@
           </div>
         </li>
       </ul>
-    </section>
+    </section> -->
 
-    <section class="probootstrap-section probootstrap-bg-white">
+    <!-- <section class="probootstrap-section probootstrap-bg-white">
       <div class="container">
         <div class="row">
           <div class="col-md-5 text-center probootstrap-animate">
@@ -114,11 +123,10 @@
             <p><img src="img/img_1.jpg" alt="Free Bootstrap Template by ProBootstrap.com" class="img-responsive"></p>
           </div>
         </div>
-        <!-- END row -->
       </div>
-    </section>
+    </section> -->
 
-    <section class="probootstrap-section-bg overlay" style="background-image: url(img/hero_bg_2.jpg);" data-stellar-background-ratio="0.5" data-section="specialties">
+   <!--  <section class="probootstrap-section-bg overlay" style="background-image: url(img/hero_bg_2.jpg);" data-stellar-background-ratio="0.5" data-section="specialties">
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center probootstrap-animate">
@@ -130,7 +138,6 @@
         </div>
       </div>
     </section>
-     <!-- probootstrap-bg-white -->
     <section class="probootstrap-section">
       <div class="container">
         <div class="row">
@@ -286,7 +293,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="probootstrap-section-bg overlay" style="background-image: url(img/hero_bg_5.jpg);"  data-stellar-background-ratio="0.5" data-section="reservation">
       <div class="container">
@@ -527,6 +534,13 @@
 
     <script src="js/scripts.min.js"></script>
     <script src="js/custom.min.js"></script>
+    <script type="text/javascript">
+      var element = document.getElementById('particleBox');
+      element.style.height = window.innerHeight + "px";
+      element.style.width = window.innerWidth + "px";
+    </script>
+    <script src="js/p1.js"></script>
+    <script src="js/p2.js"></script>
 
   </body>
 </html>
