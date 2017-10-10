@@ -58,7 +58,7 @@ p, ul, ol {
 a {
   -webkit-transition: .3s all;
   transition: .3s all;
-  color: #FFA33E;
+  color: #3B5998;
 }
 
 a:hover, a:focus, a:active {
@@ -302,10 +302,10 @@ a:hover, a:focus, a:active {
   padding-bottom: 0 !important;
   font-size: 30px;
   text-transform: uppercase;
-  background: url(../img/logo.png) no-repeat left top;
+  background: url(../img/logo.png) no-repeat;
   top: 40px;
   position: relative;
-  width: 117px;
+  width: 48px;
   height: 40px;
   text-indent: -999999px;
   -webkit-transition: .2s all;
@@ -315,7 +315,6 @@ a:hover, a:focus, a:active {
 @media screen and (max-width: 768px) {
   .probootstrap-navbar .navbar-brand {
     top: 5px !important;
-    background-position: left 100%;
   }
 }
 
@@ -328,9 +327,9 @@ a:hover, a:focus, a:active {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .probootstrap-navbar .navbar-brand {
     position: relative;
-    width: 117px;
+    width: 48px;
     height: 40px;
-    background: url(../img/logo@2x.png) no-repeat left 100%;
+    background: url(../img/logo@2x.png) no-repeat;
     background-size: cover;
   }
 }
@@ -413,7 +412,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar .navbar-nav.active > a {
-  color: #FFA33E !important;
+  color: #3B5998 !important;
 }
 
 .probootstrap-navbar .dropdown-submenu {
@@ -484,7 +483,6 @@ a:hover, a:focus, a:active {
 
 .probootstrap-navbar.scrolled .navbar-brand {
   top: 10px;
-  background-position: left 100%;
 }
 
 .probootstrap-navbar.scrolled .dropdown > a:before {
@@ -500,12 +498,12 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-  color: #FFA33E !important;
+  color: #3B5998 !important;
 }
 
 @media screen and (max-width: 768px) {
   .probootstrap-navbar.scrolled .navbar-nav > li.active > a {
-    color: #FFA33E !important;
+    color: #3B5998 !important;
   }
 }
 
@@ -605,7 +603,7 @@ a:hover, a:focus, a:active {
 }
 
 .probootstrap-hero.probootstrap-hero-colored {
-  background: #FFA33E;
+  background: #3B5998;
 }
 
 .probootstrap-hero.probootstrap-hero-colored h1 {
@@ -639,8 +637,8 @@ a:hover, a:focus, a:active {
 }
 
 .btn.btn-primary {
-  border: 1px solid #FFA33E;
-  background: #FFA33E;
+  border: 1px solid #3B5998;
+  background: #3B5998;
   color: #ffffff;
 }
 
@@ -650,25 +648,25 @@ a:hover, a:focus, a:active {
 
 .btn.btn-primary:focus, .btn.btn-primary:active {
   outline: none;
-  border: 1px solid #FFA33E;
+  border: 1px solid #3B5998;
 }
 
 .btn.btn-ghost {
   background: transparent;
-  border: 1px solid #FFA33E;
-  color: #FFA33E;
+  border: 1px solid #3B5998;
+  color: #3B5998;
 }
 
 .btn.btn-ghost:hover {
-  background: #FFA33E;
+  background: #3B5998;
   color: #ffffff;
 }
 
 .btn.btn-ghost:focus, .btn.btn-ghost:active {
   outline: none;
   background: transparent;
-  color: #FFA33E;
-  border: 1px solid #FFA33E;
+  color: #3B5998;
+  border: 1px solid #3B5998;
 }
 
 section[data-section="menu"] {
@@ -864,7 +862,7 @@ section[data-section="menu"] {
 }
 
 .probootstrap-block-image .text h3 a:hover {
-  color: #FFA33E;
+  color: #3B5998;
 }
 
 .probootstrap-block-image .text p:last-child {
@@ -890,7 +888,7 @@ section[data-section="menu"] {
   display: block;
   width: 0;
   height: 2px;
-  background: #FFA33E;
+  background: #3B5998;
   position: absolute;
   bottom: 0;
   z-index: 2;
@@ -915,7 +913,7 @@ section[data-section="menu"] {
 
 .probootstrap-custom-link:hover:before {
   width: 100%;
-  background: #FFA33E;
+  background: #3B5998;
 }
 
 .image-wrap {
@@ -992,7 +990,7 @@ section[data-section="menu"] {
   top: 15px;
   right: 0;
   font-size: 20px;
-  color: #FFA33E;
+  color: #3B5998;
 }
 
 @media screen and (max-width: 768px) {
@@ -1078,7 +1076,7 @@ section[data-section="menu"] {
 
 .probootstrap-cell .text p.price {
   font-size: 20px;
-  color: #FFA33E;
+  color: #3B5998;
 }
 
 .probootstrap-cell .text:before {
@@ -1357,7 +1355,7 @@ section[data-section="menu"] {
 .probootstrap-form .form-control:active, .probootstrap-form .form-control:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #FFA33E;
+  border-color: #3B5998;
 }
 
 .probootstrap-form .form-group .form-field {
@@ -1760,7 +1758,7 @@ section[data-section="menu"] {
   display: block;
   text-transform: none;
   letter-spacing: normal;
-  color: #FFA33E;
+  color: #3B5998;
   font-size: 14px;
 }
 
@@ -1770,7 +1768,7 @@ section[data-section="menu"] {
 
 .probootstrap-pricing .probootstrap-price-wrap .probootstrap-price {
   font-size: 50px;
-  color: #FFA33E;
+  color: #3B5998;
   font-weight: 100;
   display: block;
   margin-bottom: 10px;
@@ -1860,7 +1858,7 @@ section[data-section="menu"] {
 
 .probootstrap-heading .primary-heading {
   font-family: "Pinyon Script", serif;
-  color: #FFA33E;
+  color: #3B5998;
   margin: 0;
   padding: 0;
   font-size: 80px;
@@ -2139,14 +2137,14 @@ section[data-section="menu"] {
 
 .owl-theme .owl-controls .owl-nav [class*="owl-"] i {
   font-size: 24px;
-  background: #ffa33e !important;
+  background: #3B5998 !important;
   padding: 12px;
   -webkit-transition: .5s all;
   transition: .5s all;
 }
 
 .owl-theme .owl-controls .owl-nav [class*="owl-"]:hover i, .owl-theme .owl-controls .owl-nav [class*="owl-"]:focus i {
-  background: #ffa33e !important;
+  background: #3B5998 !important;
 }
 
 .owl-theme .owl-dots {
