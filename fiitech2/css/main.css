@@ -1722,8 +1722,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     min-height: 702px;
     background-position-x: 50%;
     background-position-y: 30%;
-    background-position: 50% 30%;
-    background-size: 100vh 100vw;
+    /*background-position: 50% 30%;*/
+    /*background-size: 100vh 100vw;*/
   }
 
   .home-content-tablecell .row {
