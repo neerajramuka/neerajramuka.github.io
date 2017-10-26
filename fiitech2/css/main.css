@@ -1512,10 +1512,10 @@ header .header-logo a {
   background-image: url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center 30%;
-  /*-webkit-background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  */background-size: cover;
+  background-size: cover;
   background-attachment: fixed;
   min-height: 804px;
   position: relative;
@@ -1720,6 +1720,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 @media only screen and (max-width: 600px) {
   #home {
     min-height: 702px;
+    -webkit-background-size: auto, auto;
   }
 
   .home-content-tablecell .row {
