@@ -1720,10 +1720,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 @media only screen and (max-width: 600px) {
   #home {
     min-height: 702px;
-    background-position-x: 50%;
-    background-position-y: 30%;
-    /*background-position: 50% 30%;*/
-    /*background-size: 100vh 100vw;*/
+    background-image: url(../images/main.jpeg);
+
   }
 
   .home-content-tablecell .row {
